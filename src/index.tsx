@@ -778,7 +778,7 @@ export class ScrollBottomSheet<T extends any> extends Component<Props<T>> {
                     this.props.componentType
                   ];
                   // @ts-ignore
-                  const node = this.props.innerRef.current?.getNode();
+                  const node = this.props.innerRef.current;
 
                   if (
                     node &&
